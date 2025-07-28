@@ -1,6 +1,7 @@
 # Project's dependencies 
 # Python==3.13
+ipykernel>=6.30.0
+matplotlib>=3.8.0
 numpy>=2.0.0
 pandas>=2.2.0
 scikit-learn>=1.4.0
-matplotlib>=3.8.0
