@@ -3,31 +3,29 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML%20Model-orange?logo=scikit-learn&logoColor=white) ![Status](https://img.shields.io/badge/Status-Active-brightgreen) ![Mission](https://img.shields.io/badge/Mission-Naval%20Defense-navy)
 
 
-This project uses a **Logistic Regression** model to classify objects detected by (SONAR)[https://en.wikipedia.org/wiki/Sonar] as either **rock** or **mine**. It’s a supervised machine learning project built with **scikit-learn**, designed for a naval defense scenario.
+This project uses a **Logistic Regression** model to classify objects detected by [SONAR](https://en.wikipedia.org/wiki/Sonar) as either **rock** or **mine**. It’s a supervised machine learning project built with **scikit-learn**, designed for a naval defense scenario.
 
 
 
 ## 🛡 Mission Brief
 
-<div style="display: flex; align-items: center;">
-
-  <div style="flex-shrink: 0; margin-right: 20px;">
-    <img src="images/sonar.jpg" alt="SONAR Icon" width="200" height="200">
-  </div>
-
-  <div>
-    The naval defense unit has tasked me with developing a system to help protect our submarines from hidden underwater threats. 
-    Enemy forces are suspected of planting mines along the ocean bed to destroy passing submarines. These mines often resemble 
-    harmless rocks on SONAR scans, making it extremely difficult for human operators to tell the difference in time.
-    <br><br>
-    My mission is to build a <strong>machine learning model</strong> that can analyze SONAR data and accurately determine 
-    whether a detected object is a <strong>mine</strong> or a <strong>rock</strong>. The goal is to give submarine crews a 
-    reliable, real-time decision-making tool that will allow them to navigate safely, avoid dangerous zones, and protect both 
-    lives and critical military assets.
-  </div>
-
-
-</div>
+<table>
+<tr>
+<td width="220">
+  <img src="images/sonar.jpg" alt="SONAR Icon" width="200" height="200">
+</td>
+<td>
+  The naval defense unit has tasked me with developing a system to help protect our submarines from hidden underwater threats.  
+  Enemy forces are suspected of planting mines along the ocean bed to destroy passing submarines. These mines often resemble  
+  harmless rocks on SONAR scans, making it extremely difficult for human operators to tell the difference in time.  
+  
+  My mission is to build a <strong>machine learning model</strong> that can analyze SONAR data and accurately determine  
+  whether a detected object is a <strong>mine</strong> or a <strong>rock</strong>. The goal is to give submarine crews a  
+  reliable, real-time decision-making tool that will allow them to navigate safely, avoid dangerous zones, and protect both  
+  lives and critical military assets.
+</td>
+</tr>
+</table>
 
 
 ## 📊 Workflow Diagram
