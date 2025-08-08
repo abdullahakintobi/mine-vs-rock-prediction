@@ -14,7 +14,7 @@ print("---" * 12)
 print("Loading model...")
 try:
     model = joblib.load(model_path)
-    print(f"Model loaded successfully.")
+    print("Model loaded successfully.")
 except FileNotFoundError:
     print(
         "Error: 'sonar_model.pkl' not found in the '../model' directory. Please run 'train_model.py' first."
