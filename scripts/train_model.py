@@ -18,7 +18,7 @@ try:
     sonar_data = pd.read_csv("../data/sonar_data.csv", header=None)
 except FileNotFoundError:
     print(
-        "Error: 'sonar_data.csv' not found. Please ensure the file is in the same directory."
+        "Error: 'sonar_data.csv' not found. Please ensure the file is in the data directory."
     )
     exit()
 
