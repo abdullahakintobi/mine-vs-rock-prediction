@@ -6,7 +6,7 @@
 This project uses a **Logistic Regression** model to classify objects detected by (SONAR)[https://en.wikipedia.org/wiki/Sonar] as either **rock** or **mine**. It’s a supervised machine learning project built with **scikit-learn**, designed for a naval defense scenario.
 
 
----
+
 ## 🛡 Mission Brief
 
 <div style="display: flex; align-items: center;">
@@ -29,12 +29,12 @@ This project uses a **Logistic Regression** model to classify objects detected b
 
 </div>
 
----
+
 ## 📊 Workflow Diagram
 
 ![Training and Prediction Flow](images/workflow.png)
 
----
+
 ## 📂 Project Structure
 
 ```yaml
@@ -66,7 +66,7 @@ mine-vs-rock-prediction/
 
 ```
 
----
+
 ## 🧠 How It Works
 
 1. **Data Loading & Preparation**
@@ -94,7 +94,7 @@ mine-vs-rock-prediction/
     - Outputs whether the object is predicted to be a **Rock** or a **Mine**.
         
 
----
+
 ## 📦 Requirements
 
 Install dependencies with:
@@ -114,7 +114,7 @@ scikit-learn==1.7.1
 joblib==1.5.1
 ```
 
----
+
 ## 🚀 Usage
 
 ### 1️⃣ Train the Model
@@ -144,15 +144,15 @@ python scripts/predict_with_model.py
 Example output:
 
 ```
---------------------------------------------
+--
 Loading model...
 Model loaded successfully.
---------------------------------------------
+--
 Prediction: The object is a Rock :)
---------------------------------------------
+--
 ```
 
----
+
 ## 📊 Dataset
 
 - **Source:** UCI Machine Learning Repository — _Connectionist Bench (Sonar, Mines vs. Rocks)_ dataset.
@@ -161,7 +161,7 @@ Prediction: The object is a Rock :)
     
 - **Labels:** `"R"` (Rock) or `"M"` (Mine).
     
----
+
 ## 🛠 Future Improvements
 
 - **Integrate with real-time SONAR feeds** so predictions can be made instantly during submarine operations.
@@ -176,7 +176,7 @@ Prediction: The object is a Rock :)
     
 - **Optimize for low-latency performance** so the system can operate efficiently on onboard submarine hardware.
     
----
+
 ## 📜 License
 
 This project is licensed under the [Apache 2.0 License](https://github.com/abdullahakintobi/mine-vs-rock-prediction#) — feel free to use and modify.
