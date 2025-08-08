@@ -62,30 +62,24 @@ mine-vs-rock-prediction/
 ```
 
 
-## 🧠 How It Works
+## 🤖 How It Works
 
 1. **Data Loading & Preparation**
-    
+
     - The dataset `sonar_data.csv` contains 60 numerical features per object.
-        
     - Each row is labeled as **"R"** (Rock) or **"M"** (Mine).
         
 2. **Model Training** (`train_model.py`)
-    
+
     - Splits the dataset into **training** (90%) and **test** (10%) sets.
-        
     - Trains a **Logistic Regression** classifier.
-        
     - Evaluates accuracy on both training and test sets.
-        
     - Saves the trained model to `model/sonar_model.pkl` using `joblib`.
         
 3. **Prediction** (`predict_with_model.py`)
     
     - Loads the saved model.
-        
     - Accepts a new sonar reading (60 features) as input.
-        
     - Outputs whether the object is predicted to be a **Rock** or a **Mine**.
         
 
@@ -100,7 +94,7 @@ pip install -r requirements.txt
 
 From `requirements.txt`:
 
-```
+```yaml
 ipykernel==6.29.5
 matplotlib==3.10.0
 numpy==2.2.5
@@ -110,68 +104,59 @@ joblib==1.5.1
 ```
 
 
-## 🚀 Usage
+## 💻 Usage
 
-### 1️⃣ Train the Model
+### 1. Train the Model
 
 ```bash
-python scripts/train_model.py
+cd scripts
+python train_model.py
 ```
 
 This will:
 
 - Load `data/sonar_data.csv`.
-    
 - Train the model.
-    
 - Display accuracy metrics.
-    
 - Save the model to `model/sonar_model.pkl`.
     
-### 2️⃣ Make a Prediction
+### 2. Make a Prediction
 
 Edit `predict_with_model.py` to replace `input_data` with your own 60-feature values, then run:
 
 ```bash
-python scripts/predict_with_model.py
+python predict_with_model.py
 ```
 
 Example output:
 
-```
---
+```bash
+------------------------------------
 Loading model...
 Model loaded successfully.
---
+------------------------------------
 Prediction: The object is a Rock :)
---
+------------------------------------
 ```
 
 
 ## 📊 Dataset
 
-- **Source:** UCI Machine Learning Repository — _Connectionist Bench (Sonar, Mines vs. Rocks)_ dataset.
-    
+- **Source:** UCI Machine Learning Repository — [_Connectionist Bench (Sonar, Mines vs. Rocks)_](http://archive.ics.uci.edu/dataset/151/connectionist+bench+sonar+mines+vs+rocks) dataset.
 - **Features:** 60 sonar readings (numeric values).
-    
 - **Labels:** `"R"` (Rock) or `"M"` (Mine).
     
 
 ## 🛠 Future Improvements
 
 - **Integrate with real-time SONAR feeds** so predictions can be made instantly during submarine operations.
-    
-- **Enhance model accuracy** by experimenting with advanced algorithms like Random Forests, Gradient Boosting, or Neural Networks.
-    
-- **Implement feature scaling and noise reduction techniques** to handle variability in SONAR data collected in different ocean conditions.
-    
-- **Develop a user-friendly dashboard** for submarine crews to view predictions, confidence scores, and threat alerts in real time.
-    
-- **Incorporate anomaly detection** to flag suspicious patterns not previously seen in the training data.
-    
+- **Enhance model accuracy** by experimenting with advanced algorithms like Random Forests, Gradient Boosting, or Neural Networks.  
+- **Implement feature scaling and noise reduction techniques** to handle variability in SONAR data collected in different ocean conditions.  
+- **Develop a user-friendly dashboard** for submarine crews to view predictions, confidence scores, and threat alerts in real time.  
+- **Incorporate anomaly detection** to flag suspicious patterns not previously seen in the training data. 
 - **Optimize for low-latency performance** so the system can operate efficiently on onboard submarine hardware.
     
 
 ## 📜 License
 
-This project is licensed under the [Apache 2.0 License](https://github.com/abdullahakintobi/mine-vs-rock-prediction#) — feel free to use and modify.
+This project is licensed under the [Apache 2.0 License](/LICENSE) — feel free to use and modify.
