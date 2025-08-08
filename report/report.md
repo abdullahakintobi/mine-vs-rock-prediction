@@ -62,7 +62,7 @@ My mission: **Build a machine learning model that can analyze SONAR data and acc
 3. **Generate Prediction** (Rock or Mine)
     
 
-![Workflow Diagram](https://chatgpt.com/c/A_flowchart_diagram_in_digital_vector_graphic_form.png)
+![Workflow Diagram](/images/workflow.jpg)
 
 ---
 
