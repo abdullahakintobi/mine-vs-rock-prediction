@@ -62,8 +62,7 @@ My mission: **Build a machine learning model that can analyze SONAR data and acc
 3. **Generate Prediction** (Rock or Mine)
     
 
-![Workflow Diagram](/images/workflow.jpg)
-
+![Workflow Diagram](images/workflow.png)
 ---
 
 ## **5. Implementation Details**
