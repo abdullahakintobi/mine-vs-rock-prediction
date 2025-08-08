@@ -10,8 +10,8 @@ This project uses a **Logistic Regression** model to classify objects detected b
 
 <table>
 <tr>
-<td width="260">
-  <img src="images/sonar.jpg" alt="SONAR Image" width="250" height="250">
+<td width="280">
+  <img src="images/sonar.jpg" alt="SONAR Image" width="260" height="260">
 </td>
 <td>
   <p>
