@@ -6,7 +6,6 @@
 This project uses a **Logistic Regression** model to classify objects detected by [SONAR](https://en.wikipedia.org/wiki/Sonar) as either **rock** or **mine**. It’s a supervised machine learning project built with **scikit-learn**, designed for a naval defense scenario.
 
 
-
 ## 🛡 Mission Brief
 
 <table>
@@ -15,14 +14,12 @@ This project uses a **Logistic Regression** model to classify objects detected b
   <img src="images/sonar.jpg" alt="SONAR Icon" width="200" height="200">
 </td>
 <td>
-  The naval defense unit has tasked me with developing a system to help protect our submarines from hidden underwater threats.  
-  Enemy forces are suspected of planting mines along the ocean bed to destroy passing submarines. These mines often resemble  
-  harmless rocks on SONAR scans, making it extremely difficult for human operators to tell the difference in time.  
-  
-  My mission is to build a <strong>machine learning model</strong> that can analyze SONAR data and accurately determine  
-  whether a detected object is a <strong>mine</strong> or a <strong>rock</strong>. The goal is to give submarine crews a  
-  reliable, real-time decision-making tool that will allow them to navigate safely, avoid dangerous zones, and protect both  
-  lives and critical military assets.
+  <p>
+  The naval defense unit has tasked me with developing a system to help protect our submarines from hidden underwater threats. Enemy forces are suspected of planting mines along the ocean bed to destroy passing submarines. These mines often resemble harmless rocks on SONAR scans, making it extremely difficult for human operators to tell the difference in time.  
+  </p>
+  <p>
+  My mission is to build a <strong>machine learning model</strong> that can analyze SONAR data and accurately determine whether a detected object is a <strong>mine</strong> or a <strong>rock</strong>. The goal is to give submarine crews a reliable, real-time decision-making tool that will allow them to navigate safely avoid dangerous zones, and protect both lives and critical military assets.
+  </p>
 </td>
 </tr>
 </table>
